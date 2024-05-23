@@ -21,11 +21,11 @@ contract MigratorETH is IMigrator {
         L1Bridge = _L1Bridge;
     }
 
-    ///@notice Function called by the Ztaking Pool to facilitate migration of staked tokens from the Ztaking Pool to Zircuit
-    ///@param _user The address of the user whose staked funds are being migrated to Zircuit
-    ///@param _tokens The tokens being migrated to Zircuit from the Ztaking Pool
-    ///@param _destination The address which will be credited the tokens on Zircuit
-    ///@param _amounts The amounts of each token to be migrated to Zircuit for the _user
+    ///@notice Function called by the Ztaking Pool to facilitate migration of staked tokens from the Ztaking Pool to Form
+    ///@param _user The address of the user whose staked funds are being migrated to Form
+    ///@param _tokens The tokens being migrated to Form from the Ztaking Pool
+    ///@param _destination The address which will be credited the tokens on Form
+    ///@param _amounts The amounts of each token to be migrated to Form for the _user
     function migrate(
         address _user,
         address[] calldata _tokens,
